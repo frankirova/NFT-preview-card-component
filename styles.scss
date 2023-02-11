@@ -98,3 +98,18 @@ footer img {
 .footer-text {
   color: var(--very-dark-blue-p);
 }
+@media (min-width: 720px) {
+  .attribution {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 630px) {
+  .attribution {
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    margin: 1rem;
+  }
+}
